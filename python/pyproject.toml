@@ -29,7 +29,7 @@ dependencies = [
 [dependency-groups]
 dev = [
     "uv==0.12.7",
-    "flit==4.0.2",
+    "flit==4.1.0",
     "ruff==0.16.5",
     "pytest==9.1.1",
     "pytest-asyncio==1.4.0",
@@ -466,5 +466,5 @@ explicit = true
 name = "agent_framework_meta"
 
 [build-system]
-requires = ["flit-core >= 3.11,< 5.0"]
+requires = ["flit-core >= 4.1.0,< 5.0"]
 build-backend = "flit_core.buildapi"
