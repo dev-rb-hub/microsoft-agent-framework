@@ -53,7 +53,7 @@ test = [
     "azure-monitor-opentelemetry",
     "mcp[ws]",
     # Optional SDK used by the agent-hooks tests and isolated source checks.
-    "agent-hooks-sdk>=0.1.0a4,<0.2",
+    "agent-hooks-sdk>=0.1.0b2,<0.2",
 ]
 
 [tool.uv]
